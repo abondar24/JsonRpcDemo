@@ -16,7 +16,7 @@ public class Client {
         DemoService service = ProxyUtil.createClientProxy(Client.class.getClassLoader(),DemoService.class,client);
 
         System.out.println(service.hello("Alex"));
-        System.out.println("Today is" + service.getDate());
+        System.out.println("Today is " + service.getDate());
     }
 
 
