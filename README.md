@@ -1,4 +1,4 @@
-# jsonRPCDemo
+# JsonRPCDemo
 SpringBoot based JsonRPC demo
 
 
